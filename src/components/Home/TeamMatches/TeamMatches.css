@@ -1,0 +1,91 @@
+.flexing{
+    display: flex;
+    background-color: #1e293b;
+    padding: 30px;
+    width: 75%;
+    color: #ffffff;
+    font-family: Bree Serif;
+    gap:1rem;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.teamlogo{
+    height: 200px;
+}
+
+.maincont{
+    background-color: aliceblue;
+    height: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    align-items: center;
+}
+
+.heading{
+    align-self: flex-start;
+    color: white;
+}
+
+.image{
+    height: 70%;
+    width: 100%;
+}
+
+.unorder-list{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:1rem;
+    padding-right: 44px;
+    
+}
+
+.unorder-list li{
+    background-color: #1e293b;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    width: 322px;
+}
+
+.unorder-list img{
+    height: 150px;
+}
+
+.heading{
+    color: #ffffff;
+    font-family: Bree Serif;
+    align-self: center;
+    font-weight: bold;
+
+}
+.won{
+    color: green;
+}
+
+.lost{
+    color: red;
+}
+
+.unorder-list h3{
+    color: #ffffff;
+    text-align: center;
+}
+
+.loader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+    height: 100vh;
+    background-size: cover;
+}
